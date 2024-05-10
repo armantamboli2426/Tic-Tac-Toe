@@ -3,7 +3,8 @@
     margin: 0;
 }
 body{
-    background-color: #904C77;
+    background-image: url(Usign-Gradients-Featured-Image.webp);
+object-fit: cover;
     text-align: center;
 }
 .container{
@@ -29,21 +30,25 @@ body{
     border : none;
     box-shadow: 0 0 1rem rgba(red, green, blue, alpha);
     font-size: 8vmin;
-    color: #ff00a2;
-    background-color: aqua;
+   color: #F8D082;
+background-color: brown;
     
 }
 .reset{
-    padding: 1px;
-    background-color: blue;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: cadetblue;
     color: white;
-    border-radius: 1px;
+    border-radius: 1rem;
+    border: none;
 }
 .op{
-    padding: 1px;
-    background-color: blue;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: cadetblue;
     color: white;
-    border-radius: 1px;
+    border-radius: 1rem;
+    border: none;
 }
 .msg{
     color: bisque;
@@ -54,4 +59,7 @@ body{
 }
 .hide{
     display: none;
+}
+h1{
+    color: white;
 }
